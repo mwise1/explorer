@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "IQUIDUS",
+  "title": "Stim Block Explorer",
 
   "address": "127.0.0.1:3001",
 
   // coin name
-  "coin": "Darkcoin",
+  "coin": "Stim",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "STM",
 
   // logo
   "logo": "/images/logo.png",
@@ -47,13 +47,13 @@
   // wallet settings
   "wallet": {
     "host": "localhost",
-    "port": 9332,
+    "port": 8093,
     "user": "darkcoinrpc",
     "pass": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
   },
 
   // confirmations
-  "confirmations": 40,
+  "confirmations": 50,
 
   // language settings
   "locale": "locale/en.json",
@@ -64,10 +64,10 @@
     "markets": true,
     "richlist": true,
     "twitter": true,
-    "facebook": false,
+    "facebook": true,
     "googleplus": false,
     "search": true,
-    "movement": true,
+    "movement": false,
     "network": true
   },
 
@@ -80,22 +80,22 @@
 
   // ensure links on API page are valid
   "api": {
-    "blockindex": 1337,
-    "blockhash": "1733320247b15ca2262be646397d1ffd6be953fa638ebb8f5dcbb4c2b91b34f1",
-    "txhash": "f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e",
-    "address": "RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb"
+    "blockindex": 834,
+    "blockhash": "000000000279b6bac49857fba30ef60f39b5c315de2c90042c104aa66053d872",
+    "txhash": "e415fb4d3207ad9ac1b61db3de28611b7b3532027497e7202f146a730b6b1587",
+    "address": "SRGsm3KkPop8U4ZD24icV94czWvtusLERa"
   },
 
   // market settings
-  //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex
+  //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex, cryptobridge
   //default market is loaded by default and determines last price in header
   "markets": {
-    "coin": "JBS",
+    "coin": "STM",
     "exchange": "BTC",
-    "enabled": ["bittrex"],
+    "enabled": ["cryptobridge"],
     "cryptopia_id": "1658",
     "ccex_key" : "Get-Your-Own-Key",
-    "default": "bittrex"
+    "default": "cryptobridge"
   },
 
   // richlist/top100 settings
@@ -115,13 +115,13 @@
   },
 
   // twitter, facebook, googleplus
-  "twitter": "iquidus",
-  "facebook": "yourfacebookpage",
+  "twitter": "StimOfficia",
+  "facebook": "Stim-StimOfficial",
   "googleplus": "yourgooglepluspage",
 
   //genesis
-  "genesis_tx": "65f705d2f385dc85763a317b3ec000063003d6b039546af5d8195a5ec27ae410",
-  "genesis_block": "b2926a56ca64e0cd2430347e383f63ad7092f406088b9b86d6d68c2a34baef51",
+  "genesis_tx": "ea82704fbdd0cb53a6aa51a4c76fd28a3f5ae19077e9936e16e3c28753e33050",
+  "genesis_block": "000008f14c49fc21ce1794e88e5f8f0cdb7872b1cbf65e5939119c65456f72cd",
 
   //heavy (enable/disable additional heavy features)
   "heavy": false,
